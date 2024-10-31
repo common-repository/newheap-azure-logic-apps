@@ -1,0 +1,261 @@
+.nhala-pad-10 {
+    padding: 10px;
+}
+.nhala-pad-left-10 {
+    padding-left: 10px;
+}
+.nhala-pad-right-10 {
+    padding-right: 10px;
+}
+.nhala-pad-top-10 {
+    padding-top: 10px;
+}
+.nhala-pad-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.nhala-margin-10 {
+    margin: 10px;
+}
+.nhala-margin-left-10 {
+    margin-left: 10px;
+}
+.nhala-margin-right-10 {
+    margin-right: 10px;
+}
+.nhala-margin-top-10 {
+    margin-top: 10px;
+}
+.nhala-margin-left-10 {
+    margin-bottom: 10px;
+}
+
+.nhala-pad-5 {
+    padding: 5px;
+}
+.nhala-pad-left-5 {
+    padding-left: 5px;
+}
+.nhala-pad-right-5 {
+    padding-right: 5px;
+}
+.nhala-pad-top-5 {
+    padding-top: 5px;
+}
+.nhala-pad-bottom-5 {
+    padding-bottom: 5px;
+}
+
+.nhala-margin-5 {
+    margin: 5px;
+}
+.nhala-margin-left-5 {
+    margin-left: 5px;
+}
+.nhala-margin-right-5 {
+    margin-right: 5px;
+}
+.nhala-margin-top-5 {
+    margin-top: 5px;
+}
+.nhala-margin-left-5 {
+    margin-bottom: 5px;
+}
+
+.nhala-row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.nhala-row:before{
+    display: table;
+    content: ' ';
+}
+
+.nhala-row:after{
+    clear:both;
+    content: ' ';
+}
+
+.nhala-row:after{
+    clear:both;
+    display: table;
+    content: ' ';
+}
+
+.nhala-col-md-1,
+.nhala-col-md-2,
+.nhala-col-md-3,
+.nhala-col-md-4,
+.nhala-col-md-5,
+.nhala-col-md-6,
+.nhala-col-md-7,
+.nhala-col-md-8,
+.nhala-col-md-9,
+.nhala-col-md-10,
+.nhala-col-md-11,
+.nhala-col-md-12
+{
+    float:left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.nhala-col-md-1:after,
+.nhala-col-md-2:after,
+.nhala-col-md-3:after,
+.nhala-col-md-4:after,
+.nhala-col-md-5:after,
+.nhala-col-md-6:after,
+.nhala-col-md-7:after,
+.nhala-col-md-8:after,
+.nhala-col-md-9:after,
+.nhala-col-md-10:after,
+.nhala-col-md-11:after,
+.nhala-col-md-12:after
+{
+    clear: both;
+    display: table;
+    content: ' ';
+}
+
+.nhala-col-md-1{
+    width: 8.33333333%;
+}
+
+.nhala-col-md-2{
+    width: 16.66666667%;
+}
+
+.nhala-col-md-3{
+    width: 25%;
+}
+
+.nhala-col-md-4{
+    width: 33.33333333%;
+}
+
+.nhala-col-md-5{
+    width: 41.66666667%;
+}
+
+.nhala-col-md-6{
+    width: 50%;
+}
+
+.nhala-col-md-7{
+    width: 58.33333333%;
+}
+
+.nhala-col-md-8{
+    width: 66.66666667%;
+}
+
+.nhala-col-md-9{
+    width: 75%;
+}
+
+.nhala-col-md-10{
+    width: 83.33333333%;
+}
+
+.nhala-col-md-11{
+    width: 91.66666667%;
+}
+
+.nhala-col-md-12{
+    width: 100%;
+}
+
+/**
+ * nhala integration settings
+ */
+.nhala-integration-settings-container {
+    width: 100%;
+}
+
+.nhala-settings-event-category-tab-btn{
+    cursor:pointer;
+}
+
+.nhala-settings-event-category-crumble{
+    margin-bottom: 10px;
+}
+.nhala-settings-event-block
+{
+    background-color: #f1f1f1;
+    padding-left:15px;
+    padding-right:15px;
+    overflow: hidden;
+}
+
+.nhala-settings-event-block .property-title
+{
+    font-weight: 500;
+    line-height: 2;
+}
+
+.nhala-settings-event-block .nhala-header {
+    background-color: #e5e5e5;
+    height: 20px;
+    padding: 5px;
+}
+
+.nhala-settings-event-block .nhala-header .title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 94%;
+}
+
+.nhala-settings-event-block .nhala-header .active-wrapper {
+    position: absolute;
+    right: 17px;
+    top: 5px;
+}
+
+
+.nhala-settings-event-block .event-active-action{
+
+}
+
+.nhala-settings-event-block .nhala-body {
+    padding: 5px;
+}
+
+.nhala-settings-event-block .nhala-body .content {
+
+}
+
+.nhala-settings-event-block .nhala-body .active-content {
+    display:none;
+}
+
+.nhala-settings-event-block .nhala-footer {
+    height: 20px;
+    padding: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* Hide for now */
+    display:none;
+}
+
+.nhala-settings-event-block .nhala-footer .author-contact-link{
+    text-decoration: none;
+
+}
+
+
+/**
+ * nhala tabs
+ */
+.nhala-tab{
+    display:none;
+}
+
+.nhala-active{
+    display:block!important;
+}
